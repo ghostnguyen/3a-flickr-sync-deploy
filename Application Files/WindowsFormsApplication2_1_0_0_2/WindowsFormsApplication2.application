@@ -8,10 +8,10 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://raw2.github.com/ghostnguyen/3a-flickr-sync-deploy/master/WindowsFormsApplication2_1_0_0_2/WindowsFormsApplication2.application" />
+    <deploymentProvider codebase="https://raw2.github.com/ghostnguyen/3a-flickr-sync-deploy/master/Application Files/WindowsFormsApplication2_1_0_0_2/WindowsFormsApplication2.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="https://raw2.github.com/ghostnguyen/3a-flickr-sync-deploy/master/WindowsFormsApplication2_1_0_0_2/WindowsFormsApplication2.exe.manifest" size="7207">
+    <dependentAssembly dependencyType="install" codebase="https://raw2.github.com/ghostnguyen/3a-flickr-sync-deploy/master/Application Files/WindowsFormsApplication2_1_0_0_2/WindowsFormsApplication2.exe.manifest" size="7207">
       <assemblyIdentity name="WindowsFormsApplication2.exe" version="1.0.0.2" publicKeyToken="1d3b6d17dec4417e" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
