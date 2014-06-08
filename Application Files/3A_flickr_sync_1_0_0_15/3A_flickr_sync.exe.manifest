@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="3A_flickr_sync.exe" version="1.0.0.15" publicKeyToken="dd73940e3380a9d0" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="3a_flickr_sync.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="3A_flickr_sync" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="3A_flickr_sync.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="3A_flickr_sync.exe" size="268800">
+      <assemblyIdentity name="3A_flickr_sync" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>h8lnT++zzJ3mmKE07PUzDW8vunqh+sXlm3we5c6bWpY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5051040">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0lWnSwoffm0FYGmILDo2YTTXzoU9METMVWhTqd6G/ac=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="580768">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+uSrPPQoxDIu2CAcUYr4zQAtdRNcFuxUslvlzC2dHYY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Reactive.Core.dll" size="114920">
+      <assemblyIdentity name="System.Reactive.Core" version="2.2.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cHlsRZyzknA2JkQ/bD+5wCr8JRRBtC66mvrZO3igL8k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Reactive.Interfaces.dll" size="24296">
+      <assemblyIdentity name="System.Reactive.Interfaces" version="2.2.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LPKOeixa2dT7qAFbta5eKZemX1u7D3lGhaPyt44W08A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Reactive.Linq.dll" size="705776">
+      <assemblyIdentity name="System.Reactive.Linq" version="2.2.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+W0qj67id0iiUZVgweoyCghRfAjo7YopoNSkaFEKHLo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Reactive.PlatformServices.dll" size="38632">
+      <assemblyIdentity name="System.Reactive.PlatformServices" version="2.2.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Dubtp4lF5Y1zIujbE/bzw5PWFQE6V/8ULEuuxYE4pL8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Reactive.Windows.Forms.dll" size="25832">
+      <assemblyIdentity name="System.Reactive.Windows.Forms" version="2.2.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WYgHf/bL548a9BDVBXkU38f8N/5tNDB7QBcK2QjUkRo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="3A_flickr_sync.exe.config" size="2219">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5o2BF7SIzbnMbTCgNqNtEF/50T89+zkxRcE3SafYQwc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="3a_flickr_sync.ico" size="15919">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7oAyD26zrW3fyfNEIW2RJ1m/0q4hkT1bNXIz62T+kYw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=libra-laptop\libra" issuerKeyHash="38f32de4022245b044af667614807623e9294fdc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xU+BacnvxrfC/iNo9ZQeT4WObywLCpdiJRK/s9tB35k=</DigestValue></Reference></SignedInfo><SignatureValue>eKugWpyF3sgdLq4gH+jmxJNwxiPJY6U4kFs8AjnZDD7it6D2beuWdRJfWvGwVtp5H0i3SIS6Yo4KU7Bwzuf4Dij8zNA3S30tjC1B5XnKVI7x38yayveB0MW/UMKr84yJDl5UW0mLD6Jf2UKK5/fNdrXu0surIS4QggeBPHzbIR8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qe7/okgQA86G5KAvKvodElXYbRv8RCdx7ojlgt9sB0H/woCgXuhq5V8+8ItaUbxK5B/5BuUnvc4Q/mYFr/72ck9vTNxAxLPVvVSR7SSzq2+T7xswo1qJVdZZ7G5DETbWwH/N3bbcsbiDvPYZU6plSafX4aUXaoHIqVW77kkvEME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="99df41dbb3bf122562970a0b2c6f8e854f1e94f56823fec2b7c6efc969814fc5" Description="" Url=""><as:assemblyIdentity name="3A_flickr_sync.exe" version="1.0.0.15" publicKeyToken="dd73940e3380a9d0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=libra-laptop\libra</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hbXXG+2ltfSGR4xzguQ7+XC/IGMUWuXyEbWymOSudJA=</DigestValue></Reference></SignedInfo><SignatureValue>VufzamyDB36QoVFCKcpgG6faQxcI6e1ZVuxcyVQTmaZB9mvn73iZU3Eo40o72Hj0lyy2nGjfZWAhRYK/WzflWoZnDzornJcvZaUtGhZ31Nejl8yFS1PWr8M+dPYiI6udgArzwTpVjAZ/WaP2+92XZ6yneVROXiC6MDc1JBS1X0o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qe7/okgQA86G5KAvKvodElXYbRv8RCdx7ojlgt9sB0H/woCgXuhq5V8+8ItaUbxK5B/5BuUnvc4Q/mYFr/72ck9vTNxAxLPVvVSR7SSzq2+T7xswo1qJVdZZ7G5DETbWwH/N3bbcsbiDvPYZU6plSafX4aUXaoHIqVW77kkvEME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQYJwy/Wkwa4tM3Fl9lBH01DANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAbABpAGIAcgBhAC0AbABhAHAAdABvAHAAXABsAGkAYgByAGEwHhcNMTQwMTE4MDUzNzM1WhcNMTUwMTE4MTEzNzM1WjAvMS0wKwYDVQQDHiQAbABpAGIAcgBhAC0AbABhAHAAdABvAHAAXABsAGkAYgByAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKnu/6JIEAPOhuSgLyr6HRJV2G0b/EQnce6I5YLfbAdB/8KAoF7oauVfPvCLWlG8SuQf+QblJ73OEP5mBa/+9nJPb0zcQMSz1b1Uke0ks6tvk+8bMKNaiVXWWexuQxE21sB/zd223LG4g7z2GVOqZUmn1+GlF2qByKlVu+5JLxDBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJVyd2NHLsBYFJ5N7w7R00ioNtlikSZ5tPJx/EXt4PNqTRI8kwj/RkoX6lOIJl2kye/2Zf+jX+zJPjqsmU+sChGuY7DfhzNnsCaVqwaOqcigaZJK1DtFnPk3gZgBHq01nsGheFEjocf86jl0c3mqN/N9k9i1rJNd8/q8CiYsHdiM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
